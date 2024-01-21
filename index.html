@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <link rel="stylesheet" href="style.css">
+    <title>ڕۆژژمێری دڵژین</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">بەخێربیت بۆ ڕۆژژمێری دڵژین<br>Bi xêr hatî Salnameya Diljinê</h1>
+        <hr>
+        <div class="date">
+            <span id="day" class="day-name"></span><br>
+            <span id="date" class="big-font"></span>
+            <span id="month" class="month-name"></span><br>
+            <span id="year" class="big-font"></span>
+        </div>
+        <hr>
+         <select id="dateSelector">
+            <option value="sorani">سۆرانی - Soranî</option>
+            <option value="kurmanci">کورمانجی - Kurmancî</option>
+            <option value="kellhurri">کەڵھوڕی -  Kellhurrî</option>
+            <option value="leki">لەکی -Lekî</option>
+            <option value="hewrami">ھەورامی - hewramî</option>
+            <option value="zazaki">زازاکی - zazakî</option>
+        </select>
+
+      <!-- Modal Container -->
+     <div id="myModal" class="modal">
+        <!-- Modal Content -->
+        <div class="modal-content">
+            <span class="close" id="closeModalBtn">&times;</span>
+            <h2>هۆکاری درووس بوون</h2>
+            <p>وەک دیاری بۆ  ئەو کەسە کە جوانترین رووداوی ناو ڕۆژژمێری ژیانم بوو <br>E.29.H.D</p>
+            <button id="closeModalBtn">شاردنەوە - veşartin</button>
+        </div>
+    </div> 
+        
+        <button id="changeDateButton">گوڕین - Guhertin</button>
+        <hr>
+
+        <div class="button">
+            <button class="btn-info" id="infoButton">?</button>
+        </div>
+
+    </div>
+    <script src="calendars.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
