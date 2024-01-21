@@ -1,6 +1,6 @@
 # Kurdish Calendars 
 
-![Project Image](https://s6.uupload.ir/files/screen_shot_1402-11-02_at_00.52.53_xkwo.png)
+![Project Image](https://s6.uupload.ir/files/screen_shot_1402-11-02_at_01.18.25_j4m.png)
 
 This project is a simple JavaScript application that displays the Kurdish calendar in six different dialects: Sorani, Kurmanci, Kelhuri, Laki, Hewrami, and Zazaki. The application allows users to select a specific dialect and view the corresponding calendar date.
 
